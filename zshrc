@@ -49,7 +49,7 @@ ZSH_CUSTOM=~/.zsh/custom
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ant autojump cabal common-aliases git gitignore gpg-agent jira mvn rails ruby scala svn wd web-search vi-mode)
+plugins=(ant cabal common-aliases git gitignore gpg-agent jira mvn scala svn wd web-search vi-mode autojump )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -74,3 +74,5 @@ cdpath=($HOME/work/globus $HOME/bin)
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# common-aliases defines j which is used to invoke autojump. To unbind it call
+unalias j
