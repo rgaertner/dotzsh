@@ -9,5 +9,3 @@
 ### Create symlinks
 
 	ln -s ~/.zsh/zshrc ~/.zshrc
-	ln -s ~/.zsh/zshrc ~/.zshrc
-
