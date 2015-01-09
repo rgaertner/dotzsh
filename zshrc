@@ -49,7 +49,7 @@ ZSH_CUSTOM=~/.zsh/custom
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ant cabal common-aliases git gitignore gpg-agent jira mvn scala svn wd web-search vi-mode autojump )
+plugins=(ant cabal common-aliases git git-extras gpg-agent jira mvn scala svn wd web-search vi-mode autojump )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -62,11 +62,7 @@ setopt auto_cd
 cdpath=($HOME/work/globus $HOME/bin)
 
 # # Preferred editor for local and remote sessions
- if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
- else
-   export EDITOR='mvim'
- fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
